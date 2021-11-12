@@ -1,16 +1,19 @@
 <template>
   <div class="home">
-    <app-bar title="TODO" :left="bars" :right="search" />    
+    <app-bar title="TODO" :left="bars" :right="search" />
+    <avatar />
   </div>
 </template>
 
 <script>
+import Avatar from '@/components/Avatar.vue';
 // @ is an alias to /src
 import AppBar from "../components/AppBar.vue"
 export default {
   name: "Home",
   components: {
-    AppBar
+    AppBar,
+    Avatar
   },
 };
 </script>
