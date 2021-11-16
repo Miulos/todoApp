@@ -65,4 +65,18 @@ export default {
   letter-spacing: 1px;
   font-weight: 300;
 }
+.avatar_tips {
+  margin-top: 16px;
+  padding: 0 6px;
+  font-size: 13px;
+  font-weight: 100;
+  opacity: 0.8;
+  line-height: 1.6em;
+}
+.avatar_date {
+  margin-top: 44px;
+  margin-bottom: 16px;
+  padding: 0 6px;
+  font-size: 14px;
+}
 </style>
